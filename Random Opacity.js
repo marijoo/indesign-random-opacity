@@ -6,8 +6,8 @@ function mainScript() {
     var selected = app.selection;
     var i;
 
-    var minOpacity = prompt("Minimale Deckkraft in %", 15);
-    var maxOpacity = prompt("Maximale Deckkraft in %", 75);
+    var minOpacity = prompt("Minimum opacity in %", 15);
+    var maxOpacity = prompt("Maximum opacity in %", 75);
 
     if (!minOpacity || !maxOpacity) {
         return false;
